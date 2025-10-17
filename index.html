@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 🌌 Navbar -->
+  <header class="navbar">
+    <div class="logo">Quiz<span>.</span></div>
+    <a href="#quiz" class="btn">Get Started</a>
+  </header>
+  <div class="pic">
+  <img src="quiz-time-text-effect-font-editable-typography-3d-text_506432-2468.jpg" width="1255px" height="550px" style="margin-left: 2.5pc; margin-top: 3pc; border-radius: 8pc; box-shadow: 0px 0px 35px rgb(1, 255, 242);">
+</div>
+<marquee style="background-color: aqua; padding: 2pc; font-size: 30px; font-weight: 900; margin-left: 3pc; margin-right: 3pc; margin-top: 5pc; border-radius: 10pc; margin-bottom: 5pc;" behavior="alternate" direction="left">QUIZ OF WEB DEVELOPMENT</marquee>
+<div class="firstdiv">
+<h1 id="quiz">QUIZ</h1>
+<h4 id="ques"></h4>
+ <input value="1" onclick="trigger()" name="options" type="radio" />
+    <label id="opt1"></label>
+    <br />
+    <br />
+    <input value="2" onclick="trigger()" name="options" type="radio" />
+    <label id="opt2"></label>
+
+    <br />
+    <br />
+
+    <input value="3" id="inp" onclick="trigger()" name="options" type="radio" />
+    <label id="opt3"></label>
+    <br />
+    <br />
+
+    <button id="btn" disabled onclick="nextQuestion()">Next</button>
+    </div>
+      <!-- 🌙 Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <h2 class="footer-logo">Quiz<span>.</span></h2>
+      <p class="footer-text">Challenge your mind. Learn something new every day.</p>
+      
+      <div class="footer-bottom">
+        <p>© 2025 Quiz App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+    <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
